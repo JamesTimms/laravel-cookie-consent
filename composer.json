@@ -14,9 +14,26 @@
         "homepage": "http://draperstudio.tech",
         "role": "Developer"
     }],
+  	"repositories": [
+  		{
+  				"type": "package",
+  				"package": {
+  					"name": "DraperStudio/laravel-service-provider",
+  					"version": "dev-master",
+  					"source": {
+  						"url": "https://github.com/JamesTimms/laravel-service-provider",
+  						"type": "git",
+  						"reference": "master"
+  					},
+  					"autoload": {
+  						"classmap": [""]
+  					}
+  				}
+  		}
+  	],
     "require": {
         "php": "^5.6 || ^7.0",
-        "draperstudio/laravel-service-provider": "^0.1"
+        "draperstudio/laravel-service-provider": "dev-master"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.1",
