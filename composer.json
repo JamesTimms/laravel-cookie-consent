@@ -16,19 +16,8 @@
     }],
   	"repositories": [
   		{
-  				"type": "package",
-  				"package": {
-  					"name": "DraperStudio/laravel-service-provider",
-  					"version": "dev-master",
-  					"source": {
-  						"url": "https://github.com/JamesTimms/laravel-service-provider",
-  						"type": "git",
-  						"reference": "master"
-  					},
-  					"autoload": {
-  						"classmap": [""]
-  					}
-  				}
+  			"url": "https://github.com/JamesTimms/laravel-service-provider",
+  			"type": "git"
   		}
   	],
     "require": {
