@@ -6,7 +6,7 @@
         "draperstudio",
         "laravel-cookie-consent"
     ],
-    "homepage": "https://github.com/DraperStudio/laravel-cookie-consent",
+    "homepage": "https://github.com/JamesTimms/laravel-cookie-consent",
     "license": "MIT",
     "authors": [{
         "name": "DraperStudio",
@@ -16,7 +16,7 @@
     }],
   	"repositories": [
   		{
-  			"url": "https://github.com/JamesTimms/laravel-service-provider",
+  			"url": "https://github.com/JamesTimms/laravel-service-provider.git",
   			"type": "git"
   		}
   	],
